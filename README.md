@@ -3,8 +3,17 @@
 ## T-Tests on Suspension Coils
 
 ##  Deliverable 1: Linear Regression to Predict MPG
-According to the multiple linear regression model, the slope of the linear model is not considered to be zero because the p-value of the hypothesis test was 5.35e-11, which is smaller than the 0.05 significance level. The multiple regression model does an adequate job of predicting the mpg of MechaCar prototypes because the multiple r-squared value was 0.71. Which means that roughly 71% of the time the model will predict mpg values correctly. Most likely there are other more impactful variables and factors that were not captured in the dataset that contribute to the mpg variability of the MechaCar prototypes.
+
+* According to the multiple linear regression model vehicle length, ground clearance and Intercept have provided a non-random amount of variance to the mpg values in the dataset. This simply means that the vehicle length and ground clearance have a significant impact on the mpg. The intercept is statistically significant, which means there are other variables and factors that contribute to the variation in mpg that have not been included in this model. These variables may or may not be within this dataset and may still need to be collected or observed.
+
+* Spoiler angle, AWD and vehicle weight contributes a random amount of variance to this linear model.
+
+* The p-value of this linear model is 5.35e-11, which is much smaller than the assumed significance level of 0.05%. Therefore,it can be stated that there is sufficient evidence to reject our null hypothesis, which means that the slope of this linear model is not zero.
+
+* From this linear model, the r-squared value is 0.7149 which means that roughly 71% of all mpg predictions will be correct when using this model. So it can be stated that this linear model predicts mpg of MechaCar prototypes effectively.
+
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_mpg_linear_regression.PNG)
+
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_mpg_summary_linear_regression.PNG)
 
