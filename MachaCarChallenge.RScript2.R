@@ -3,11 +3,12 @@ library(tidyverse)
 
 ### Perform Multiple Regression on MechaCar dataset
 
+## Deliverable 1
 # Read in the csv file.
 mecha_data <- read.csv("MechaCar_mpg.csv",stringsAsFactors = F,check.names = F)
 
-
 # Perform a linear regression module
+
 # Method 1:
 mecha_lm <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mecha_data)
 
@@ -18,15 +19,17 @@ summary(mecha_lm)
 # will be correct while using this regression model.
 # The p-value is 5.35e-11 is much smaller than our assumed significance level of 0.05.
 
+
 # Method 2
 lm(formula = mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data = mecha_data)
 # vehicle length and spoiler angle have no or very little impact on the mpg of the vehicle 
 
 # Generate summary statistics
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, mecha_data))
- 
-# We can state that there is sufficient evidence to reject our null hypothesis.
 
+
+
+## Deliverable 2
 ### Perform Summary Analysis on suspension coil dataset
 
 # Read in the csv file
@@ -42,6 +45,8 @@ lot_summary <- suspension_data %>% group_by(Manufacturing_Lot) %>%
   summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups='keep')
 
 
+
+## Deliverable 3
 ### Suspension Coil T-Tests
 
 # Peform t-test across all Lots
