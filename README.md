@@ -7,6 +7,9 @@ According to the multiple linear regression model, the slope of the linear model
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 [](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.PNG)
+
+
+
 [](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.PNG)
 Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications, and both have the same calculated mean and median. However, Lot 3 is far more variable than the other manufacturing lots. Lot 3 has a calculated variance that exceeds the manufacturing specs. If we combine all three lots and look at the total data, the overall calculated variance is within specifications.
 
