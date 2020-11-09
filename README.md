@@ -1,7 +1,5 @@
 # MechaCar_Statistical_Analysis
 
-## T-Tests on Suspension Coils
-
 ##  Deliverable 1: Linear Regression to Predict MPG
 
 * According to the multiple linear regression model vehicle length, ground clearance and Intercept have provided a non-random amount of variance to the mpg values in the dataset. This simply means that the vehicle length and ground clearance have a significant impact on the mpg. The intercept is statistically significant, which means there are other variables and factors that contribute to the variation in mpg that have not been included in this model. These variables may or may not be within this dataset and may still need to be collected or observed.
@@ -17,14 +15,18 @@
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_mpg_summary_linear_regression.PNG)
 
+
+
+
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
-On the smmary level standard Deviation of the PSI variable is relatively small 76.23459. 
-Variance of the PSI sample distribution is 76.23459 which is smaller than 100 pounds per inch so our suspension coils data meets the design specifications for the MechaCar and the overall calculated variance is within specifications.
+* On the summary level standard Deviation of the PSI variable is relatively small 76.23459. 
+
+* Variance of the PSI sample distribution is 76.23459 which is smaller than 100 pounds per inch so our suspension coils data meets the design specifications for the MechaCar and the overall calculated variance is within specifications.
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.PNG)
 
-We also looked at the summary level and also split the data by lots (lot1, lot2, and lot3). Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications. However, Lot 3 is far more variable than the other manufacturing lots with the alculated variance that exceeds the manufacturing specs. 
+* Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications. However, Lot 3 is far more variable than the other manufacturing lots with the alculated variance that exceeds the manufacturing specs. 
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.PNG)
 
