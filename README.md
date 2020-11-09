@@ -38,10 +38,7 @@
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_t-test.PNG)
 
-
-According to each of the one-sample t-tests, Lot 1 and Lot 2 PSI values are not statistically different from the population mean. 
 Our null hypothesis is the true mean of the sample set is equal to 1500 PSI. 
-
 
 Lot 1 t-test returned a p-value of 0.9048, therefore we fail to reject the null hypothesis and the true mean could equal 1500 psi. 
 
