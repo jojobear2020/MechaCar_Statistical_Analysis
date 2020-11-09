@@ -66,7 +66,7 @@ To test this, we would need multiple horsepower data points from vehicles as wel
 
 ### 2. Fuel efficiency
 
-Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Fuel efficient vehicles require less gas to go a given distance. Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. In the United States, fuel efficiency is expressed as "miles per gallon" (mpg).The question is whether the mpg of MechaCars is better than other competitors or not.
+Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Fuel efficient vehicles require less gas to go a given distance. Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. The study question is whether the mpg of MechaCars is better than other competitors or not.
 
 * Null hypothesis: the means of mpg of all groups are equal.
 * Alternate hypothesis: at least one of the means is different from all other groups.
