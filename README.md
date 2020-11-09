@@ -4,11 +4,15 @@
 
 ##  Deliverable 1: Linear Regression to Predict MPG
 According to the multiple linear regression model, the slope of the linear model is not considered to be zero because the p-value of the hypothesis test was 5.35e-11, which is smaller than the 0.05 significance level. The multiple regression model does an adequate job of predicting the mpg of MechaCar prototypes because the multiple r-squared value was 0.71. Which means that roughly 71% of the time the model will predict mpg values correctly. Most likely there are other more impactful variables and factors that were not captured in the dataset that contribute to the mpg variability of the MechaCar prototypes.
+![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_mpg_linear_regression.PNG)
+
+![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_mpg_summary_linear_regression.PNG)
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
+
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.PNG)
 
-
+We looked at the summary level and also split the data by lots (lot1, lot2, and lot3).
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.PNG)
 Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications, and both have the same calculated mean and median. However, Lot 3 is far more variable than the other manufacturing lots. Lot 3 has a calculated variance that exceeds the manufacturing specs. If we combine all three lots and look at the total data, the overall calculated variance is within specifications.
