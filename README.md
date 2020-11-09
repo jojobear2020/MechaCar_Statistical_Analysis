@@ -20,7 +20,6 @@
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
-* On the summary level standard Deviation of the PSI variable is relatively small 76.23459. 
 
 * Variance of the PSI sample distribution is 76.23459 which is smaller than 100 pounds per inch so our suspension coils data meets the design specifications for the MechaCar and the overall calculated variance is within specifications.
 
