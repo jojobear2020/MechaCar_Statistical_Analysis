@@ -57,7 +57,7 @@ Lot 3 t-test returned a p-value of 0.637, therefore we fail to reject the null h
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
-There are quite a few metrics that people are interested in when choosing a car. Among them are horsepower, fuel efficiency, car cost, cargo and passenger space, and even color. Having this data in dataset would be extremely beneficial. 
+There are quite a few metrics that people are interested in when choosing a car. Among them are horsepower, fuel efficiency, safety rating, car cost, cargo & passenger space, and even color. Having this data in dataset would be extremely beneficial. 
 
 ### 1. Horsepower 
 Horsepower is a common performance metric that is reported alongside car fuel-efficiency and engine size. Therefore it would be really easy to collect horsepower data for a large number of vehicles. We can create a study that tests whether or not the horsepower of MechaCar is statistically different from a collection of other comparable vehicles. 
