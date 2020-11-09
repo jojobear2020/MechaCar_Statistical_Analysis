@@ -10,16 +10,22 @@ According to the multiple linear regression model, the slope of the linear model
 
 ## Deliverable 2: Summary Statistics on Suspension Coils
 
+On the smmary level standard Deviation of the PSI variable is relatively small 76.23459. 
+Variance of the PSI sample distribution is 76.23459 which is smaller than 100 pounds per inch so our suspension coils data meets the design specifications for the MechaCar and the overall calculated variance is within specifications.
+
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_total_summary.PNG)
 
-We looked at the summary level and also split the data by lots (lot1, lot2, and lot3).
+We also looked at the summary level and also split the data by lots (lot1, lot2, and lot3). Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications. However, Lot 3 is far more variable than the other manufacturing lots with the alculated variance that exceeds the manufacturing specs. 
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_lot_summary.PNG)
 
 
-Across the suspension coil manufacturing lots, Lot 1 and Lot 2 are both within design specifications. However, Lot 3 is far more variable than the other manufacturing lots with the alculated variance that exceeds the manufacturing specs. If we combine all three lots and look at the total data, the overall calculated variance is within specifications.
+
 
 ## Deliverable 3: T-Tests on Suspension Coils
+
+
+
 
 ![](https://github.com/jojobear2020/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil_t-test.PNG)
 
