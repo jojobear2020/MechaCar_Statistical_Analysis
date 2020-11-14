@@ -8,9 +8,9 @@
 
 * Spoiler angle, AWD and vehicle weight contributes a random amount of variance to this linear model.
 
-* The p-value of this linear model is 5.35e-11 and is much smaller than the assumed significance level of 0.05%. We can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of this linear model is not zero.
+* The p-value of this linear model is 5.35e-11 and is much smaller than the assumed significance level of 0.05%. We can state that there is sufficient evidence to reject our null hypothesis.
 
-* From this linear model, the r-squared value is 0.7149 which means that roughly 71% of all mpg predictions will be correct when using this model. So it can be stated that this linear model predicts mpg of MechaCar prototypes effectively. 
+* From this linear model, the r-squared value is 0.7149 which means that roughly 71% of all mpg predictions will be correct when using this model. We can state that this linear model predicts mpg of MechaCar prototypes effectively. 
 
 * Adjusted r-squared is 0.6825, which accounts for more factors/degree of error in the model is close to the original r-squared and still shows the model has a high level of effective prediction.
 
