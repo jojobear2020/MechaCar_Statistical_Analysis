@@ -66,9 +66,9 @@ There are quite a few metrics that people are interested in when choosing a car.
 ### 1. Horsepower 
 Horsepower is a common performance metric that is reported alongside car fuel-efficiency and engine size. Therefore it would be really easy to collect horsepower data for a large number of vehicles. We can create a study that tests whether or not the horsepower of MechaCar is statistically different from a collection of other comparable vehicles. 
 
-* ***Null hypothesis:***  there is no statistical difference between Mechacar horsepower and the horsepower of all other comparable vehicles. 
-* ***Alternative hypothesis:***  there is a statistical difference between horsepower of MechaCar versus the other vehicles. 
-* ***Statistical test:*** a one-sample t-test, where the population data will be all comparable vehicles. 
+* **Null hypothesis:**   there is no statistical difference between Mechacar horsepower and the horsepower of all other comparable vehicles. 
+* **Alternative hypothesis:**   there is a statistical difference between horsepower of MechaCar versus the other vehicles. 
+* **Statistical test:**  a one-sample t-test, where the population data will be all comparable vehicles. 
 
 To test this, we would need multiple horsepower data points from vehicles as well as multiple data points from the MechaCar vehicles, so it is  important to include the horsepower of multiple vehicle configurations in the dataset.
 
@@ -76,9 +76,9 @@ To test this, we would need multiple horsepower data points from vehicles as wel
 
 Fuel efficiency is a measure of how far a vehicle can travel per unit of fuel. Because less fuel is required to cover a journey, fuel-efficient cars save more money for drivers in the long-term. The study question is whether the mpg of MechaCars is better than other competitors or not.
 
-* ***Null hypothesis:*** Mechacar and competitors have equal mpg fuel efficiency means.
-* ***Alternate hypothesis:*** at least one of the means is different.
-* ***Statistical test:*** a one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle).
+* **Null hypothesis:**  Mechacar and competitors have equal mpg fuel efficiency means.
+* **Alternate hypothesis:**  at least one of the means is different.
+* **Statistical test:**  a one-way ANOVA is used to test the means of a single dependent variable across a single independent variable with multiple groups(e.g.fuel efficiency(mpg) of different cars based on vehicle).
 
 For conducting this test, mpg data of all the concerned manufacturers are required.
 
