@@ -4,7 +4,7 @@
 
 * According to the multiple linear regression model vehicle length, ground clearance and Intercept have provided a non-random amount of variance to the mpg values in the dataset - the vehicle length and ground clearance have a significant impact on the mpg. 
 
-* The intercept is statistically significant, which means there are other variables and factors that contribute to the variation in mpg that have not been included in this model. These variables may or may not be within this dataset and may still need to be collected or observed.
+* The intercept is also statistically significant, which means there are other variables and factors that contribute to the variation in mpg that have not been included in this model. These variables may or may not be within this dataset and may still need to be collected or observed.
 
 * Spoiler angle, AWD and vehicle weight contributes a random amount of variance to this linear model.
 
